@@ -19,6 +19,7 @@ gem 'rest-client'
 gem 'dotenv-rails'
 gem 'materialize-sass'
 gem 'bcrypt', '~> 3.1.7'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 
 # Use Capistrano for deployment
