@@ -13,5 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ @import "materialize";
 
-@import "materialize";
+ .start-hidden {
+   display: none;
+ }
